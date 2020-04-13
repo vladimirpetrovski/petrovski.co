@@ -1,6 +1,6 @@
 +++
 authors = [
-    "Hugo Authors",
+    "Vladimir Petrovski"
 ]
 title = "Image Gallery"
 date = "2020-01-02"

@@ -1,7 +1,6 @@
 +++
 authors = [
-    "Hugo Authors",
-    "Jane Smith",
+    "Vladimir Petrovski"
 ]
 title = "Rich Content"
 date = "2019-03-10"

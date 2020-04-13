@@ -1,28 +1,23 @@
 +++
 title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
+description = "Working on Internet of Things with mobile technologies"
+date = "2020-04-13"
+aliases = ["about-us","about-me","contact"]
+author = "Vladimir Petrovski"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+![Profile picture 2](/images/profile.jpg)
 
-Hugo makes use of a variety of open source projects including:
+My name is Vladimir Petrovski and I am a mobile developer. I am very much interested in [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) and constantly exploring all related technologies to it. In the past I have worked on projects such as [Chipolo](https://chipolo.net), [Neutrino8](https://www.neutrino8.com/) platform and [Aerosleep](http://aerosleep.com/) smart baby monitor, all related to IoT.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I am deeply working on improving my open sources contributions, helping others and sharing my knowledge. I guess this page is one of them.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+If you want to check out more on me, follow me on my personal accounts:
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+* [Twitter](https://twitter.com/petrovskivlad)
+* [LinkedIn](https://www.linkedin.com/in/vladimirpetrovski/)
+* [Instagram](https://www.instagram.com/vladimir.petrovski/)
+* [GitHub](https://github.com/vladimirpetrovski)
+* [Facebook](https://www.facebook.com/vladimir.petrovski)
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
-
+You can always reach me to my personal e-mail vladimir.petrovski2@gmail.com I am very much responsive.

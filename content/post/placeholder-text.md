@@ -1,6 +1,6 @@
 +++
 authors = [
-    "Hugo Authors",
+    "Vladimir Petrovski"
 ]
 title = "Placeholder Text"
 date = "2019-03-09"

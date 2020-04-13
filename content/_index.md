@@ -1,4 +1,3 @@
 +++
-author = "Hugo Authors"
+author = "Vladimir Petrovski"
 +++
-
