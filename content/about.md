@@ -10,7 +10,7 @@ author = "Vladimir Petrovski"
 
 My name is Vladimir Petrovski and I am a mobile developer. I am very much interested in [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) and constantly exploring all related technologies to it. In the past I have worked on projects such as [Chipolo](https://chipolo.net), [Neutrino8](https://www.neutrino8.com/) platform and [Aerosleep](http://aerosleep.com/) smart baby monitor, all related to IoT.
 
-I am deeply working on improving my open sources contributions, helping others and sharing my knowledge. I guess this page is one of them.
+I am deeply working on improving my open source contributions, helping others and sharing my knowledge. I guess this page is one of them.
 
 If you want to check out more on me, follow me on my personal accounts:
 
@@ -20,4 +20,4 @@ If you want to check out more on me, follow me on my personal accounts:
 * [GitHub](https://github.com/vladimirpetrovski)
 * [Facebook](https://www.facebook.com/vladimir.petrovski)
 
-You can always reach me to my personal e-mail vladimir.petrovski2@gmail.com I am very much responsive.
+You can always reach to me on my personal e-mail vladimir.petrovski2@gmail.com I am very much responsive.
