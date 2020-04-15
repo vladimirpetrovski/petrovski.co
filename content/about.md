@@ -22,4 +22,6 @@ If you want to check out more on me, follow me on my personal accounts:
 
 You can always reach out to me on my personal e-mail vladimir.petrovski2@gmail.com! 🍻
 
+<div style="text-align: center;">
 👨‍💻🎉🌍
+</div>
