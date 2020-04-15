@@ -23,10 +23,10 @@ theme = "hugo-theme-chunky-poster"
     weight = 0
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-author = "authors"
+  category = "categories"
+  tag = "tags"
+  series = "series"
+  author = "authors"
 
 [params]
   author = "Vladimir Petrovski"
@@ -45,16 +45,8 @@ author = "authors"
     facebook = "https://facebook.com/vladimir.petrovski"
     twitter = "https://twitter.com/petrovskivlad"
     linkedin = "https://linkedin.com/in/vladimirpetrovski"
-    #stack-overflow = "https://stackoverflow.com"
     instagram = "https://instagram.com/vladimir.petrovski"
     github = "https://github.com/vladimirpetrovski"
-    #weibo = "https://www.weibo.com"
-    #medium = "https://medium.com"
-    #pinterest = "https://pinterest.com"
-    #reddit = "https://reddit.com"
-    #gitlab = "https://gitlab.com"
-    #mastodon = "https://mastodon.social"
-    #keybase = "https://keybase.io/"
 
   [params.prismJS]
     enable = true

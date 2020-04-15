@@ -1,14 +1,14 @@
 ---
 title: "Placeholder Text"
-description: "Lorem Ipsum Dolor Si Amet, Lorem Ipsum Dolor Si Amet"
 date: 2020-04-15T18:05:32+02:00
 images: ["placeholder-text.jpg"]
 tags: ["markdown", "text"]
-authors: ["Vladimir Petrovski"]
+authors:
+  - Vladimir Petrovski
 ---
 
-Lorem est tota propiore conpellat pectoribus de
-pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice
+Lorem est tota propiore conpellat pectoribus de pectora summo.
+<!--more-->Redit teque digerit hominumque toris verebor lumina non cervice
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
 caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
 lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
