@@ -8,11 +8,10 @@ author: "Vladimir Petrovski"
 
 ![Profile picture 2](/images/profile.jpg)
 
-My name is Vladimir Petrovski and I am a mobile engineer. I am very much interested in [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) and constantly exploring all related technologies to it. Exploring the [ubiqutius computing](https://en.wikipedia.org/wiki/Ubiquitous_computing), helps me dive into very challenging every day problems and working on very awesome projects.
 
-I am deeply working on improving my open source contributions, helping others and sharing my knowledge. This website is one of them.
+Hi there, I am Vladimir Petrovski and I am a mobile engineer. [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) is my current field of interests and I am using every moment of my free time to dive deeply into the technologies related to it. Exploring [ubiqutius computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) gives me the opportunity to solve challenging, everyday problems and work on very awesome projects. In the meantime, I'm improving my open source contributions and sharing my knowledge. This website is one of them.
 
-If you want to check out more on me, follow me on my personal accounts:
+👇 Check out my personal accounts
 
 * [Twitter](https://twitter.com/petrovskivlad)
 * [LinkedIn](https://www.linkedin.com/in/vladimirpetrovski/)
@@ -20,7 +19,7 @@ If you want to check out more on me, follow me on my personal accounts:
 * [GitHub](https://github.com/vladimirpetrovski)
 * [Facebook](https://www.facebook.com/vladimir.petrovski)
 
-You can always reach out to me on my personal e-mail vladimir.petrovski2@gmail.com! 🍻
+or just drop me an email on vladimir.petrovski2@gmail.com! 🍻
 
 <div style="text-align: center;">
 👨‍💻🎉🌍
