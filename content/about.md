@@ -1,10 +1,10 @@
-+++
-title = "About"
-description = "Working on Internet of Things"
-date = "2020-04-15"
-aliases = ["about-us","about-me","contact"]
-author = "Vladimir Petrovski"
-+++
+---
+title: "About"
+description: "Working on Internet of Things"
+date: 2020-04-15T18:05:32+02:00
+aliases: ["about-us","about-me","contact"]
+author: "Vladimir Petrovski"
+---
 
 ![Profile picture 2](/images/profile.jpg)
 

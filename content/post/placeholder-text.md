@@ -1,18 +1,11 @@
-+++
-authors = [
-    "Vladimir Petrovski"
-]
-title = "Placeholder Text"
-date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet"
-tags = [
-    "markdown",
-    "text",
-]
-images = [
-    "placeholder-text.jpg",
-]
-+++
+---
+title: "Placeholder Text"
+description: "Lorem Ipsum Dolor Si Amet, Lorem Ipsum Dolor Si Amet"
+date: 2020-04-15T18:05:32+02:00
+images: ["placeholder-text.jpg"]
+tags: ["markdown", "text"]
+authors: ["Vladimir Petrovski"]
+---
 
 Lorem est tota propiore conpellat pectoribus de
 pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice

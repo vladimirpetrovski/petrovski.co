@@ -1,6 +1,6 @@
-+++
-aliases = ["posts","articles","blog","showcase","docs"]
-title = "Posts"
-author = "Vladimir Petrovski"
-tags = ["index"]
-+++
+---
+aliases: ["posts", "articles", "blog", "showcase", "docs"]
+title: "Posts"
+author: "Vladimir Petrovski"
+tags: ["index"]
+---
