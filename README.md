@@ -2,7 +2,7 @@
 
 # petrovski.co
 
-This is my personal web site currently hosted on Github pages. It uses custom domain on which this site is accessable from. Visit https://petrovski.co to check out.
+This is my personal web site hosted on [Netlify](https://www.netlify.com/). Visit https://petrovski.co to check it out.
 
 # Using
 
