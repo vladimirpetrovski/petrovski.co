@@ -10,7 +10,7 @@ author: "Vladimir Petrovski"
   <img style="width: 100%; height: auto; border-radius: 100%" src="/images/profile.jpg"/>
 </div>
 
-Hi there, I'm Vladimir Petrovski and I'm a mobile engineer. [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) is my current area of interest and I take every moment of my free time to dive into the technologies related to it. Exploring [ubiquitous computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) gives me the opportunity to solve challenging, everyday problems and work on awesome projects. In the meantime, I'm improving my open source contributions and sharing my knowledge. In the meantime, I'm improving my open source contributions and sharing my knowledge. This site is part of that plan.
+Hi there, I'm Vladimir Petrovski and I'm a mobile engineer. [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) is my current area of interest and I take every moment of my free time to dive into the technologies related to it. Exploring [ubiquitous computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) gives me the opportunity to solve challenging, everyday problems and work on awesome projects. In the meantime, I'm improving my open source contributions and sharing my knowledge. This site is part of that plan.
 
 👇 Check out my personal accounts
 
