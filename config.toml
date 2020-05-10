@@ -42,11 +42,10 @@ theme = "hugo-theme-chunky-poster"
   [params.social]
     rss = true
     email = "vladimir.petrovski2@gmail.com"
-    facebook = "https://facebook.com/vladimir.petrovski"
+    github = "https://github.com/vladimirpetrovski"
     twitter = "https://twitter.com/petrovskivlad"
     linkedin = "https://linkedin.com/in/vladimirpetrovski"
     instagram = "https://instagram.com/vladimir.petrovski"
-    github = "https://github.com/vladimirpetrovski"
 
   [params.prismJS]
     enable = true
