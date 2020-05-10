@@ -18,11 +18,6 @@ code {
 .nav-item {
   font-weight: 600;
   color: #051825;
-  opacity: .6;
-}
-
-.nav-item.active {
-  opacity: 1;
 }
 
 .home-hero {
