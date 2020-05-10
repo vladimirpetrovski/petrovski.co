@@ -31,12 +31,12 @@ theme = "hugo-theme-chunky-poster"
 [params]
   author = "Vladimir Petrovski"
   description = "Exploring mobile technologies."
-  homepageImage = "/images/homepage-image.jpg"
+  homepageImage = "/images/homepage-image.png"
   share = true
   showLanguageSwitcher = false
 
   # Custom CSS and JS. Relative to /static/css and /static/js respectively.
-  customCSS = []
+  customCSS = ["custom.css"]
   customJS = []
 
   [params.social]
