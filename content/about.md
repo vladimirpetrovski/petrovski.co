@@ -10,14 +10,14 @@ author: "Vladimir Petrovski"
   <img class="card" style="width: 100%; height: auto;" src="/images/profile.jpg"/>
 </div>
 
-Hi there, I'm Vladimir Petrovski, a mobile engineer based in Ljubljana, Slovenia. [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) is my current area of interest and I take every moment of my free time to dive into the technologies related to it. Exploring [ubiquitous computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) gives me the opportunity to solve challenging, everyday problems and work on awesome projects. In the meantime, I'm improving my open source contributions and sharing my knowledge. This site is part of that plan.
+Hi there, I'm Vladimir Petrovski, a mobile software engineer based in Ljubljana, Slovenia. [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things) is my current area of interest and I take every moment of my free time to dive into the technologies related to it. Exploring [ubiquitous computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) gives me the opportunity to solve challenging, everyday problems and work on awesome projects. In the meantime, I'm improving my open source contributions and sharing my knowledge. This site is part of that plan.
 
 👇 Let's get in touch
 
-* [Twitter](https://twitter.com/petrovskivlad)
+* [GitHub](https://github.com/vladimirpetrovski)
 * [LinkedIn](https://www.linkedin.com/in/vladimirpetrovski/)
 * [Instagram](https://www.instagram.com/vladimir.petrovski/)
-* [GitHub](https://github.com/vladimirpetrovski)
+* [Twitter](https://twitter.com/petrovskivlad)
 
 or just drop me an email on vladimir.petrovski2@gmail.com! 🍻
 
