@@ -30,12 +30,7 @@ On Marshmallow devices, we must request for location permission - `Manifest.
 * **Enabling Wi-Fi adapter**  
 Here you can check if the Wi-Fi adapter is enabled and force the user to enable it before continuing to the next step. There are other options where you can enable it from the code directly, but I don't recommend it, as you are not letting the user know that you are enabling the Wi-Fi adapter. And it no longer works on Android 10. 😒
 
-  ```
-  fun isWiFiEnabled(): Boolean {
-      val wifiManager = applicationContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
-      return wifiManager.isWifiEnabled
-  }
-  ```
+  <script src="https://gist.github.com/vladimirpetrovski/e292bad7f1f956810b047ea03e1a925b.js"></script>
 
 * **Enabling Location Services**  
 For this purpose, I'm using Google Play Services library. It shows a popup where the user can enable these services by clicking accept. Just add this dependency in your project.
@@ -46,32 +41,7 @@ For this purpose, I'm using Google Play Services library. It shows a popup where
 
   The `onSuccessCallback` is called only if the user clicks accept.
 
-  ```
-    fun checkLocationSettings(onSuccessCallback: () -> Unit) {
-      val locationRequest = LocationRequest.create()
-      locationRequest.priority = LocationRequest.PRIORITY_LOW_POWER
-      val builder = LocationSettingsRequest.Builder()
-      builder.addLocationRequest(locationRequest)
-      val client = LocationServices.getSettingsClient(this)
-      val task = client.checkLocationSettings(builder.build())
-      task.addOnSuccessListener(this) {
-          onSuccessCallback()
-      }
-      task.addOnFailureListener(this) {
-          if (it is ResolvableApiException) {
-              // Location settings are not satisfied, but this can be fixed
-              // by showing the user a dialog.
-              try {
-                  // Show the dialog by calling startResolutionForResult(),
-                  // and check the result in onActivityResult().
-                  it.startResolutionForResult(this, 111)
-              } catch (sendEx: IntentSender.SendIntentException) {
-                  // Ignore the error.
-              }
-          }
-      }
-  }
-  ```  
+  <script src="https://gist.github.com/vladimirpetrovski/14b6c6160aa5f7042537bb69a81e772d.js"></script>
 
   In Kotlin you can use it like this:
 
@@ -97,16 +67,7 @@ We need to wrap the broadcast receiver as we did before with `Completable.create
 
 For further communication with the device using REST API, socket or whatever the device supports, we need to have this Network instance accessible. We can return the Network instance like this:
 
-```
-val network: Network? = connectivityManager.allNetworks.find {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-        connectivityManager.getNetworkCapabilities(it)
-            .hasTransport(NetworkCapabilities.TRANSPORT_WIFI)
-    } else {
-        connectivityManager.getNetworkInfo(it).extraInfo == wifiSSID
-    }
-}
-```
+<script src="https://gist.github.com/vladimirpetrovski/db32ca9dfe370b035a231ea8f51d299e.js"></script>
 
 <script src="https://gist.github.com/vladimirpetrovski/aec62d79225732fa9d554b4c5fc3d0c0.js"></script>
 
@@ -138,25 +99,11 @@ That is why you need to explicitly use [`ConnectivityManager#bindProcessToNetwor
 
 Binding to a network:
 
-```
-val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-    connectivityManager.bindProcessToNetwork(network)
-} else {
-    ConnectivityManager.setProcessDefaultNetwork(network)
-}
-```
+<script src="https://gist.github.com/vladimirpetrovski/c0482830d201db48d4e85f74686e1a4f.js"></script>
 
 When you are done communicating, unbind from the network by passing a `null` value. This action lets the device to decide for itself which network to use as a primary internet connection (usually, the mobile-LTE network is faster to connect to). If the phone is not using LTE, it needs a couple of seconds to reconnect to the original Wi-Fi which was using before.
 
-```
-val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-    connectivityManager.bindProcessToNetwork(null)
-} else {
-    ConnectivityManager.setProcessDefaultNetwork(null)
-}
-```
+<script src="https://gist.github.com/vladimirpetrovski/b00b24b184b0153bfc4c30de5ead182a.js"></script>
 
 #### Accessing the device
 If your device supports REST API, you can simply use Retrofit to communicate with the device as you did before with any other REST API.
