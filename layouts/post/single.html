@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="content-page container pt-7 pb-5">
+<main class="content-page container pt-9 pb-9">
     {{ $page := . }}
     <div class="row">
         <div class="col">
@@ -7,7 +7,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="meta text-muted mb-3">
-                            <p class="created text-muted font-weight-bold mb-1">{{ $page.Date.Format "January 2, 2006" }}</p>
+                            <p class="created text-muted mb-1">{{ $page.Date.Format "January 2, 2006" }}</p>
                             <span class="mr-2"><i class="fas fa-book-open mr-2"></i>{{ T "wordCount" $page.WordCount }}</span>
                             <span><i class="fas fa-clock mr-2"></i>{{ T "readingTime" $page.ReadingTime }}</span>
                         </div>
@@ -25,7 +25,7 @@
                             {{- $image := .Fit "900x500" -}}
                             <div class="row justify-content-center mb-3">
                                 <div class="col-lg-10">
-                                    <img data-src="{{ $image.RelPermalink }}" class="img-fluid rounded mx-auto d-block" alt="{{ $page.Title }}">
+                                    <img data-src="{{ $image.RelPermalink }}" class="img-fluid mx-auto d-block" alt="{{ $page.Title }}">
                                 </div>
                             </div>
                         {{- end -}}
