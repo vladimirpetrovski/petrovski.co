@@ -9,6 +9,7 @@ footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-163946879-1"
 DisqusShortname = "petrovski-co"
 theme = "hugo-theme-chunky-poster"
+summaryLength = 60
 
 [menu]
   [[menu.main]]
@@ -60,6 +61,7 @@ theme = "hugo-theme-chunky-poster"
 [markup]
   [markup.highlight]
     codeFences = false
+    style = "monokai"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
