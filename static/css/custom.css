@@ -1,27 +1,64 @@
 body {
-  background-color: #eaeaea;
-  color: #051825;
+  background-color: #191a23;
+  color: #f5f6f7;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #051825;
+  color: #f5f6f7;
+  letter-spacing: 1.5px;
 }
 
 code {
   background-color: #d0d0d0;
 }
 
-.navbar-brand {
-  color: #051825;
+.navbar.fixed-top {
+  position: absolute;
 }
 
-.nav-item {
-  font-weight: 600;
-  color: #051825;
+.navbar-brand {
+  color: #f5f6f7;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.15em;
 }
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+  color: #f5f6f7;
+} 
+
+.navbar-nav {
+  padding-left: 2vw;
+}
+
+.nav-link {
+  font-weight: 400;
+  color: #f5f6f7;
+  letter-spacing: 1.5px;
+  padding: 0.5rem 1rem 0;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #b9b9b9;
+}  
 
 .home-hero {
-  min-height: 600px;
+  min-height: 650px;
+  margin-bottom: 6rem;
+}
+
+.home-text {
+  max-width: 30vw;
+}
+
+.home-hero .h1, h1 {
+  font-size: 2.5rem;
 }
 
 .homepage-image {
@@ -39,7 +76,7 @@ code {
 }
 
 .latest a {
-  color: #051825;
+  color: #f5f6f7;
 }
 
 .card,
@@ -48,26 +85,37 @@ code {
 }
 
 .card {
-  background-color: #f4f7f2;
+  background-color: #12131b;
+  border: 0;
 }
 
 .card p, a {
-  color: #051825;
+  color: #f5f6f7;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #f5f6f7;
 }
 
 .text-muted {
-  color: #051825 !important;
-  opacity: 0.8;
+  color: #b9b9b9 !important;
 }
 
 blockquote {
-  color: #051825 !important;
+  color: #b9b9b9 !important;
   opacity: 0.6;
   border-left: 6px solid #737c84;
 }
 
+.author .name a, 
+.author .social a {
+  color: #b9b9b9;
+}  
+
 .footer {
-  background-color: #051825;
+  background-color: #171822;
 }
 
 .footer a {
@@ -75,13 +123,17 @@ blockquote {
 }
 
 .text-copyright {
-  color: #384852;
+  color: #b9b9b9;
 }
 
 .dots {
   margin: auto;
   text-align: center;
   font-size: 30px;
+}
+
+.about-image {
+  border-radius: 100%;
 }
 
 @media (min-width: 1700px) {
