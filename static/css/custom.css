@@ -50,24 +50,40 @@ code {
 }  
 
 .home-hero {
-  min-height: 650px;
-  margin-bottom: 6rem;
+  min-height: 100vh;
+  margin-bottom: 2rem;
 }
 
 .home-text {
   max-width: 30vw;
 }
 
-.home-hero .h1, h1 {
-  font-size: 2.5rem;
+.home-hero .h1, 
+.home-hero h1 {
+  font-size: 5rem;
+  line-height: 1;
 }
+
+.home-hero .h6, 
+.home-hero h6 {
+  line-height: 1.8;
+  letter-spacing: 1.8px;
+  opacity: 0.8;
+}
+
 
 .homepage-image {
   position: absolute;
   top: 0;
   right: 0;
-  width: calc(100vw / 1.8);
+  height: 90vh;
+  width: auto;
 }
+
+.homepage-image img {
+  height: 100%;
+  width: auto;
+}  
 
 .home-text,
 .latest-text {
@@ -184,19 +200,24 @@ body .gist .gist-file {
 
 @media (min-width: 1700px) {
   .homepage-image {
-    width: calc(100vw / 2.4);
+    /* width: calc(100vw / 2.4); */
   }
 }
 
 @media (min-width: 1500px) {
   .homepage-image {
-    width: calc(100vw / 2.1);
+    /* width: calc(100vw / 2.1); */
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
+  .container-large {
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -227,7 +248,7 @@ body .gist .gist-file {
 
 @media (max-width: 800px) {
   .homepage-image {
-    width: calc(100vw / 1.7);
+    /* width: calc(100vw / 1.7); */
   }
 
   .home-text h1, h4 {
@@ -237,7 +258,7 @@ body .gist .gist-file {
 
 @media (max-width: 600px) {
   .homepage-image {
-    width: calc(100vw / 1.2);
+    /* width: calc(100vw / 1.2); */
     top: 65px;
   }
 
