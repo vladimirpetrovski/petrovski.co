@@ -15,6 +15,10 @@ code {
   color: #b9b9b9;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar.fixed-top {
   position: absolute;
 }
@@ -30,7 +34,7 @@ code {
 .navbar-brand:active,
 .navbar-brand:focus {
   color: #f5f6f7;
-} 
+}
 
 .navbar-nav {
   padding-left: 2vw;
@@ -47,7 +51,7 @@ code {
 .nav-link:active,
 .nav-link:focus {
   color: #b9b9b9;
-}  
+}
 
 .home-hero {
   min-height: 650px;
@@ -118,10 +122,10 @@ blockquote {
   border-left: 6px solid #b9b9b9;
 }
 
-.author .name a, 
+.author .name a,
 .author .social a {
   color: #b9b9b9;
-}  
+}
 
 .footer {
   background-color: #0c0d13;
@@ -139,6 +143,11 @@ blockquote {
   margin: auto;
   text-align: center;
   font-size: 30px;
+}
+
+.figures {
+  margin: auto;
+  text-align: center;
 }
 
 .about-image {
