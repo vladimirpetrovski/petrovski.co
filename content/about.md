@@ -23,10 +23,7 @@ Let's create something remarkable together. Reach out to me today, and let's emb
 Contact me at vladimir.petetrovski2@gmail.com or connect on LinkedIn: [https://linkedin.com/in/vladimirpetrovski]
 
 - [GitHub](https://github.com/vladimirpetrovski)
-- [LinkedIn](https://www.linkedin.com/in/vladimirpetrovski/)
 - [Instagram](https://www.instagram.com/vladimir.petrovski/)
-
-or just drop me an email on vladimir.petrovski2@gmail.com! 🍻
 
 <div style="text-align: center;">
 👨‍💻🎉🌍
