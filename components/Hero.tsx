@@ -1,10 +1,6 @@
 'use client'
 
-interface HeroProps {
-  mounted: boolean
-}
-
-export default function Hero({ mounted }: HeroProps) {
+export default function Hero() {
   return (
     <section
       id="hero"
@@ -15,7 +11,7 @@ export default function Hero({ mounted }: HeroProps) {
         display: 'flex',
         alignItems: 'center',
       }}
-      className={mounted ? 'fade-in-up' : ''}
+      className="fade-in-up"
     >
       <div className="container">
         <div style={{ 
@@ -45,7 +41,10 @@ export default function Hero({ mounted }: HeroProps) {
                 borderRadius: '12px',
                 objectFit: 'cover',
                 boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
+                display: 'block',
               }}
+              loading="eager"
+              decoding="async"
             />
           </div>
           <div className="hero-content">

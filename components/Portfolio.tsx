@@ -1,9 +1,5 @@
 'use client'
 
-interface PortfolioProps {
-  mounted: boolean
-}
-
 const projects = [
   {
     title: 'Speak',
@@ -55,7 +51,7 @@ const projects = [
   },
 ]
 
-export default function Portfolio({ mounted }: PortfolioProps) {
+export default function Portfolio() {
   return (
     <section
       id="portfolio"
@@ -63,7 +59,7 @@ export default function Portfolio({ mounted }: PortfolioProps) {
         padding: '100px 0',
         backgroundColor: 'var(--color-section-bg)',
       }}
-      className={mounted ? 'fade-in-up' : ''}
+      className="fade-in-up"
     >
       <div className="container">
         <h2

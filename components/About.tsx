@@ -1,10 +1,4 @@
-'use client'
-
-interface AboutProps {
-  mounted: boolean
-}
-
-export default function About({ mounted }: AboutProps) {
+export default function About() {
   return (
     <section
       id="about"
@@ -12,7 +6,7 @@ export default function About({ mounted }: AboutProps) {
         padding: '100px 0',
         backgroundColor: 'var(--color-section-bg)',
       }}
-      className={mounted ? 'fade-in-up' : ''}
+      className="fade-in-up"
     >
       <div className="container">
         <h2
