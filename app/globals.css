@@ -203,6 +203,27 @@ a:hover {
   }
 }
 
+/* Loading animations */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.profile-image {
+  position: relative;
+  z-index: 1;
+}
+
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;

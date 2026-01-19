@@ -1,6 +1,10 @@
 'use client'
 
+import { useState } from 'react'
+import Image from 'next/image'
+
 export default function Hero() {
+  const [imageLoaded, setImageLoaded] = useState(false)
   return (
     <section
       id="hero"
@@ -28,12 +32,43 @@ export default function Hero() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            position: 'relative',
           }}
           className="hero-image-wrapper"
           >
-            <img
+            {!imageLoaded && (
+              <div
+                style={{
+                  width: 'clamp(200px, 50vw, 300px)',
+                  aspectRatio: '1',
+                  borderRadius: '12px',
+                  backgroundColor: 'var(--color-hover)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  position: 'absolute',
+                  animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                }}
+              >
+                <div
+                  style={{
+                    width: '40px',
+                    height: '40px',
+                    border: '3px solid var(--color-border)',
+                    borderTopColor: 'var(--color-accent)',
+                    borderRadius: '50%',
+                    animation: 'spin 1s linear infinite',
+                  }}
+                />
+              </div>
+            )}
+            <Image
               src="/images/profile.jpeg"
               alt="Vladimir Petrovski"
+              width={300}
+              height={300}
+              priority
+              quality={90}
               style={{
                 width: '100%',
                 maxWidth: 'clamp(200px, 50vw, 300px)',
@@ -42,9 +77,11 @@ export default function Hero() {
                 objectFit: 'cover',
                 boxShadow: '0 8px 24px rgba(0, 0, 0, 0.12)',
                 display: 'block',
+                opacity: imageLoaded ? 1 : 0,
+                transition: 'opacity 0.3s ease-in-out',
               }}
-              loading="eager"
-              decoding="async"
+              onLoad={() => setImageLoaded(true)}
+              className="profile-image"
             />
           </div>
           <div className="hero-content">
