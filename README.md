@@ -1,23 +1,57 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8af8f284-5996-478e-b9f8-44795b5b6a38/deploy-status)](https://app.netlify.com/sites/petrovski/deploys)
+# Vladimir Petrovski - Portfolio Website
 
-# petrovski.co
+A modern, clean portfolio website built with Next.js showcasing my experience as a Mobile Engineer, projects, and writing.
 
-This is my personal web site hosted on [Netlify](https://www.netlify.com/). Visit https://petrovski.co to check it out.
+## Getting Started
 
-# Using
+First, install the dependencies:
 
-1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Clone this repository
 ```bash
-git clone https://github.com/vladimirpetrovski/petrovski.co
-cd petrovski.co
+yarn install
 ```
-3. Run Hugo and open in browser http://localhost:1313
-```bash
-hugo serve
-```
-4. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
 
-5. Once committed on `master` branch, [Netlify](https://www.netlify.com/) will automatically deploy the website.
+Then, run the development server:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Build for Production
+
+```bash
+yarn build
+yarn start
+```
+
+## Features
+
+- Clean, modern design inspired by modern portfolio sites
+- Responsive layout that works on all devices
+- Smooth animations and transitions
+- Fast loading with Next.js optimization
+- SEO-friendly structure
+
+## Tech Stack
+
+- Next.js 14
+- React 18
+- TypeScript
+- CSS (no external CSS frameworks)
+
+## Deployment
+
+### Netlify
+
+This site is configured for Netlify deployment. Simply:
+
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Connect your repository to Netlify
+3. Netlify will automatically detect the Next.js configuration and deploy
+
+The `netlify.toml` file is already configured with the correct build settings.
+
+### Other Platforms
+
+This site can also be deployed on Vercel or any platform that supports Next.js.
